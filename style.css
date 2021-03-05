@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+
+.myself-box, .about-box, .skill-box, .project-box {
+    background: #212121;
+    height: 100vh;
+    padding: 1em;
+    position: relative;    
+}
+
+.purple {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #b8b5ff;
+    font-family: 'Architects Daughter', cursive;
+}
+.skill-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #b8b5ff; 
+    font-family: 'Architects Daughter', cursive;
+}
+.paraQuote {
+    color: #a3d7f0;
+    font-weight: 700;
+    margin: 1em 0;
+    width: 70%;
+   
+}
+.para {
+    color: rgb(218, 218, 218);
+    font-size:1rem;
+    margin: .5em 0;
+    line-height: 1.5em;
+    width: 80%;
+    text-transform: none;
+}
+
+.menu {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    z-index: 999;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1em;
+}
+.menu a:hover, .menu a:active {
+    color: #b8b5ff;
+}
+
+.social a {
+    margin-right: 1em;
+    color: #b8b5ff;
+}
+.social a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+.skill span {
+    background: #424242;
+    color: white;
+    padding: .5em 1em;
+    margin-right: .5em;
+    line-height: 3em;
+}
+.skill h2 {
+    margin-bottom: 0;
+}
+.skill-top {
+    margin-top: .8em;
+}
+.title {
+    color: #fff;
+}
+.about-para {
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 568px) {
+    .purple{
+        font-size: 3rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .skill-title {
+        font-size: 1.2rem;
+    }
+    .para {
+        font-size: .7rem;
+    }
+    .menu a {
+        font-size: 1rem;
+    }
+    .skill span {
+        color: white;
+        font-size: .7rem;
+        padding: .3em 1em;
+        margin-right: .5em;
+        line-height: 3em;
+    }
+    .social a {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .purple{
+        font-size: 3rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .para {
+        font-size: .8rem;
+        width: 70%;
+    }
+    .menu a {
+        font-size: 2rem;
+    }
+    .skill span {
+        color: white;
+        font-size: .8rem;
+        padding: .5em 1em;
+        margin-right: .5em;
+        line-height: 3em;
+    }
+    .social a {
+        font-size: .8rem;
+    }
+    .paraQuote {
+        font-size: 1.5rem;
+    }
+
+}
